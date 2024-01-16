@@ -1,0 +1,21 @@
+[2024-01-16 11:51:14,146] multiqc                                            [DEBUG  ]  This is MultiQC v1.17
+[2024-01-16 11:51:14,148] multiqc                                            [DEBUG  ]  Command used: /home/mb62095/anaconda3/envs/fastqc/bin/multiqc 01/
+[2024-01-16 11:51:14,796] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check: module 'packaging.version' has no attribute 'StrictVersion'
+[2024-01-16 11:51:14,796] multiqc                                            [DEBUG  ]  Working dir : /home/mb62095/epichloe_2024/01_qc/results
+[2024-01-16 11:51:14,797] multiqc                                            [DEBUG  ]  Template    : default
+[2024-01-16 11:51:14,797] multiqc                                            [DEBUG  ]  Running Python 3.12.0 | packaged by conda-forge | (main, Oct  3 2023, 08:43:22) [GCC 12.3.0]
+[2024-01-16 11:51:14,798] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, mapdamage, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, bakta, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umitools, truvari, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, cellranger, snpsplit, odgi, pangolin, nextclade, freyja, humid, kat, leehom, librarian, adapterRemoval, bbduk, clipandmerge, cutadapt, flexbar, sourmash, kaiju, bracken, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2024-01-16 11:51:14,799] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmprqnb7924
+[2024-01-16 11:51:14,819] multiqc                                            [INFO   ]  Search path : /home/mb62095/epichloe_2024/01_qc/results/01
+[2024-01-16 11:51:17,265] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: [skipped_module_specific_max_filesize: 288] // [skipped_no_match: 24]
+[2024-01-16 11:51:18,595] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.8.0
+[2024-01-16 11:51:18,601] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.8.0
+[2024-01-16 11:51:18,604] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2024-01-16 11:51:19,637] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 24 reports
+[2024-01-16 11:51:19,772] multiqc.utils.software_versions                    [DEBUG  ]  Reading software versions from config.software_versions
+[2024-01-16 11:51:19,823] multiqc                                            [DEBUG  ]  Compressing plot data
+[2024-01-16 11:51:20,206] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2024-01-16 11:51:20,207] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2024-01-16 11:51:20,208] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmprqnb7924/multiqc_data' to '/home/mb62095/epichloe_2024/01_qc/results/multiqc_data'
+[2024-01-16 11:51:20,274] multiqc                                            [DEBUG  ]  Full report path: /home/mb62095/epichloe_2024/01_qc/results/multiqc_report.html
+[2024-01-16 11:51:21,558] multiqc                                            [INFO   ]  MultiQC complete
