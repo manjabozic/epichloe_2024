@@ -13,15 +13,15 @@ conda activate fastqc
 
 #Do the analysis
 
-#declare -a runqc=(*.fastq.gz)
+declare -a runqc=(*.fastq.gz)
 
-#for file in ${runqc[@]}
+for file in ${runqc[@]}
 
-#do
+do
 	echo Checking the quality of ${runqc}
 	fastqc -o ~/epichloe_2024/01_qc/results/01 --noextract -t 32 ${file}
 	echo Finished with the quality check of ${runqc}
-#done
+done
 
 #repeat all the steps for every replicate
 
@@ -52,5 +52,9 @@ do
 	echo Finished with the quality check of ${runqc}
 done
 
-cd ~/epichloe_2024/01_qc/results
-multiqc -o ~/epichloe_2024/01_qc/results/03 03/
+
+# Do the MultiQC 
+
+multiqc -o ~/epichloe_2024/01_qc/multiqc_01 01/
+multiqc -o ~/epichloe_2024/01_qc/multiqc_02 02/
+multiqc -o ~/epichloe_2024/01_qc/multiqc_02 02/
